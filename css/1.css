@@ -1,0 +1,49 @@
+body {
+    margin-top: 56px;
+    overflow-x: hidden;
+}
+
+#showcase img {
+    height: 500px;
+}
+
+.carousel-caption {
+    top: 100px;
+    bottom: auto;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/lights.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 100%;
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/media.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+#video-play a{
+    color: white;
+}
+
+#page-header {
+    height: 200px;
+    background: url("../img/image1.jpg") no-repeat center bottom/cover;
+    background-attachment: fixed;
+    color: white;
+}
+#faq a{
+    text-decoration: none;
+    color: black;
+}
